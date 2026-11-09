@@ -1,0 +1,239 @@
+
+{
+  "products": [
+    {
+      "id": 1,
+      "code": "JD001",
+      "name": "Coconut Donut",
+      "description": "Delicious donut covered with coconut flakes.",
+      "price": 3500,
+      "image": "assets/images/donuts/01.jpg",
+      "is_new": 1,
+      "discount": 0,
+      "category": "Seasonal specials"
+    },
+    {
+      "id": 2,
+      "code": "JD002",
+      "name": "Chocolate Donut",
+      "description": "Soft donut with rich chocolate topping.",
+      "price": 4000,
+      "image": "assets/images/donuts/02.jpg",
+      "is_new": 0,
+      "discount": 10,
+      "category": "Popular"
+    },
+    {
+      "id": 3,
+      "code": "JD003",
+      "name": "Strawberry Donut",
+      "description": "Sweet strawberry glazed donut.",
+      "price": 3800,
+      "image": "assets/images/donuts/03.jpg",
+      "is_new": 0,
+      "discount": 0,
+      "category": "Order again"
+    },
+    {
+      "id": 4,
+      "code": "JD004",
+      "name": "Matcha Donut",
+      "description": "Soft donut topped with premium Japanese matcha cream.",
+      "price": 4500,
+      "image": "assets/images/donuts/04.jpg",
+      "is_new": 1,
+      "discount": 0,
+      "category": "Seasonal specials"
+    },
+    {
+      "id": 5,
+      "code": "JD005",
+      "name": "Vanilla Cream Donut",
+      "description": "Classic donut filled with smooth vanilla cream.",
+      "price": 4200,
+      "image": "assets/images/donuts/05.jpg",
+      "is_new": 0,
+      "discount": 5,
+      "category": "Popular"
+    },
+    {
+      "id": 6,
+      "code": "JD006",
+      "name": "Blueberry Donut",
+      "description": "Fresh blueberry glaze with a soft fluffy texture.",
+      "price": 4300,
+      "image": "assets/images/donuts/02.jpg",
+      "is_new": 1,
+      "discount": 0,
+      "category": "New arrivals"
+    },
+    {
+      "id": 7,
+      "code": "JD007",
+      "name": "Caramel Donut",
+      "description": "Sweet caramel topping with crunchy caramel bits.",
+      "price": 4000,
+      "image": "assets/images/donuts/01.jpg",
+      "is_new": 0,
+      "discount": 15,
+      "category": "Popular"
+    },
+    {
+      "id": 8,
+      "code": "JD008",
+      "name": "Oreo Donut",
+      "description": "Chocolate donut topped with crushed Oreo cookies.",
+      "price": 4800,
+      "image": "assets/images/donuts/01.jpg",
+      "is_new": 1,
+      "discount": 0,
+      "category": "New arrivals"
+    },
+    {
+      "id": 9,
+      "code": "JD009",
+      "name": "Honey Glazed Donut",
+      "description": "Classic fluffy donut coated with sweet honey glaze.",
+      "price": 3200,
+      "image": "assets/images/donuts/05.jpg",
+      "is_new": 0,
+      "discount": 0,
+      "category": "Order again"
+    },
+    {
+      "id": 10,
+      "code": "JD010",
+      "name": "Almond Donut",
+      "description": "Premium donut topped with roasted almond slices.",
+      "price": 5000,
+      "image": "assets/images/donuts/03.jpg",
+      "is_new": 0,
+      "discount": 10,
+      "category": "Premium"
+    },
+    {
+      "id": 11,
+      "code": "JD011",
+      "name": "Mango Donut",
+      "description": "Tropical mango cream donut with fruity glaze.",
+      "price": 4500,
+      "image": "assets/images/donuts/02.jpg",
+      "is_new": 1,
+      "discount": 0,
+      "category": "Seasonal specials"
+    },
+    {
+      "id": 12,
+      "code": "JD012",
+      "name": "Red Velvet Donut",
+      "description": "Rich red velvet donut with cream cheese topping.",
+      "price": 4800,
+      "image": "assets/images/donuts/05.jpg",
+      "is_new": 0,
+      "discount": 5,
+      "category": "Premium"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "Fresh Donuts Everyday",
+      "image": "assets/images/donuts/01.jpg",
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "title": "Special Offers",
+      "image": "assets/images/donuts/02.jpg",
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "title": "New Donuts Collection",
+      "image": "assets/images/donuts/03.jpg",
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "title": "Enjoy Your Sweet Moments",
+      "image": "assets/images/donuts/04.jpg",
+      "sort_order": 4
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "title": "Seasonal specials",
+      "type": "seasonal",
+      "product_ids": "[1,4,11]",
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "title": "Popular",
+      "type": "popular",
+      "product_ids": "[2,5,7,1]",
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "title": "Order again",
+      "type": "order_again",
+      "product_ids": "[3,9,2]",
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "title": "New arrivals",
+      "type": "new_arrivals",
+      "product_ids": "[4,6,8,11]",
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "title": "Premium Collection",
+      "type": "premium",
+      "product_ids": "[10,12]",
+      "sort_order": 5
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "name": "J'Donuts Downtown",
+      "address": "Downtown Yangon",
+      "image": "assets/images/shops/jb_shop_01.jpg",
+      "distance": "1.2 km"
+    },
+    {
+      "id": 2,
+      "name": "J'Donuts Junction City",
+      "address": "Pabedan Township",
+      "image": "assets/images/shops/jb_shop_02.jpg",
+      "distance": "2.5 km"
+    },
+    {
+      "id": 3,
+      "name": "J'Donuts Myanmar Plaza",
+      "address": "Yankin Township",
+      "image": "assets/images/shops/jb_shop_03.jpg",
+      "distance": "3.8 km"
+    },
+    {
+      "id": 4,
+      "name": "J'Donuts Sanchaung",
+      "address": "Sanchaung Township",
+      "image": "assets/images/shops/jb_shop_04.jpg",
+      "distance": "4.2 km"
+    }
+  ],
+  "member": {
+    "id": 1,
+    "name": "Alex Morgan",
+    "image": "assets/images/profile/profile.jpg",
+    "tier": "Silver",
+    "points": 680000,
+    "next_tier": "Gold",
+    "points_to_next": 500
+  }
+}

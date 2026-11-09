@@ -1,0 +1,71 @@
+name: jdonuts
+description: "J'Donuts App"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.18.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.2
+  flutter_riverpod: ^2.3.6
+  go_router: ^14.8.1
+  sqlite3_flutter_libs: ^0.5.18
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  flutter_secure_storage: ^9.0.0
+  dio: ^5.4.1
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^6.0.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+  drift_dev: ^2.26.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/logo/app_logo.png"
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/
+     - assets/data/
+     - assets/images/donuts/
+     - assets/images/shops/
+     - assets/images/profile/
+     - assets/logo/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
